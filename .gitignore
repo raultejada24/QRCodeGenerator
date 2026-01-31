@@ -1,0 +1,7 @@
+# Ignorar archivos generados
+*.png
+*.jpg
+
+# Ignorar archivos del sistema y cache de Python
+__pycache__/
+*.pyc
