@@ -1,35 +1,68 @@
-# QRCodeGenerator
-A simple Qr Code Generator Program by a URL with Python
+# 🔲 QRCodeGenerator
 
-## Requisitos
+A lightweight Python tool to generate custom QR codes from any text or URL, exported as a `.png` file.
+
+---
+
+## 📋 Requirements
+
 - Python 3.x
-- Librerías en requirements.txt
+- Dependencies listed in `requirements.txt`
 
-## Instalación
+---
 
-1. **Clonar el repositorio:**
+## ⚙️ Installation
+
+1. **Clone the repository:**
+   ```bash
    git clone https://github.com/raultejada24/QRCodeGenerator.git
+   cd QRCodeGenerator
+   ```
 
-2. **Crear y activar entorno virtual:**
+2. **Create and activate a virtual environment:**
+   ```bash
    python3 -m venv venv
-   source venv/bin/activate
+   source venv/bin/activate        # macOS/Linux
+   venv\Scripts\activate           # Windows
+   ```
 
-3. **Instalar librerías:**
+3. **Install dependencies:**
+   ```bash
    pip install -r requirements.txt
+   ```
 
-## Uso
+---
 
-1. **Activar entorno:**
-   source venv/bin/activate
+## 🚀 Usage
 
-2. **Ejecutar el script:**
+1. **Activate the virtual environment:**
+   ```bash
+   source venv/bin/activate        # macOS/Linux
+   venv\Scripts\activate           # Windows
+   ```
+
+2. **Run the script:**
+   ```bash
    python main.py
+   ```
 
-El sistema solicitará:
-- **URL**: El enlace o texto a convertir.
-- **Nombre**: El nombre del archivo de salida (se añade .png automáticamente).
+3. **Follow the prompts:**
+   - **URL / Text**: The link or text to encode into the QR code.
+   - **Output name**: The name of the output file (`.png` is added automatically).
 
-## Estructura del Proyecto
-- `main.py`: Script principal de generación.
-- `requirements.txt`: Lista de dependencias.
-- `.gitignore`: Archivos excluidos de Git (como el entorno virtual y las imágenes de prueba).
+---
+
+## 📁 Project Structure
+
+```
+QRCodeGenerator/
+├── main.py              # Main generation script
+├── requirements.txt     # Project dependencies
+└── .gitignore           # Excludes venv and test images from Git
+```
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
